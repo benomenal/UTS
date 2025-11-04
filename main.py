@@ -79,7 +79,7 @@ def print_pull_result(item, rarity):
 
 def main():
     """Fungsi utama untuk menjalankan loop aplikasi."""
-    print("🎉 Selamat Datang di Simulator Gacha Sederhana! 🎉")
+    print("Welcome di game judi halal :)")
     
     while True:
         print("Pilih tindakan:")
@@ -91,7 +91,7 @@ def main():
 
         if pilihan == '1':
             # --- PULL 1 KALI ---
-            print("\nMemutar Gacha...")
+            print("\nmemulai judi...")
             # Jeda sedikit untuk suspens
             # (bisa dihapus jika tidak mau)
             # import time; time.sleep(0.5) 
@@ -101,7 +101,7 @@ def main():
 
         elif pilihan == '2':
             # --- PULL 10 KALI ---
-            print("\nMelakukan 10x Pull...\n")
+            print("\nnih 10 pullnya\n")
             results = []
             ssr_count = 0
             
@@ -121,15 +121,15 @@ def main():
             print("----------------------")
             
             if ssr_count > 0:
-                print(f"✨ LUAR BIASA! Anda mendapatkan {ssr_count} item SSR! ✨")
+                print(f"wow keren dapet {ssr_count} item SSR! ✨")
             print("\n")
 
         elif pilihan.lower() == '3':
-            print("Terima kasih telah bermain!")
+            print("top up lagi dek biar dpt SSR!")
             break
 
         else:
-            print("Pilihan tidak valid, silakan coba lagi.\n")
+            print("input apa sih mas\n")
 
 # --- Jalankan aplikasi ---
 if __name__ == "__main__":
